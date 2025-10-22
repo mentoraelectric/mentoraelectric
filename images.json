@@ -3,207 +3,221 @@
             "id": 1,
             "title": "Advanced PCB Design",
             "description": "High-frequency PCB design with impedance control and multi-layer stackup",
-            "imageUrl": "images/pcb-design-1.jpg",
+            "imageUrl": "pcbdesign.jpeg",
             "category": "pcb-design",
-            "date": "2024-03-15",
+            "date": "2025-03-15",
             "featured": true
         },
         {
             "id": 2,
-            "title": "Micro-Etching Service",
+            "title": "Professional Etching Services ",
             "description": "Precision etching for complex circuit patterns with 0.1mm resolution",
-            "imageUrl": "images/etching-1.jpg",
+            "imageUrl": "etching.jpg",
             "category": "etching",
-            "date": "2024-03-14",
+            "date": "2025-03-14",
             "featured": false
         },
         {
             "id": 3,
-            "title": "Arduino DIY Kit",
-            "description": "Complete Arduino starter kit with sensors, components, and tutorial",
-            "imageUrl": "images/diy-module-1.jpg",
+            "title": "12V Electret Microphone Module",
+            "description": "This Electret Microphone Module works with upto 12V DC, has very little distortion and can be interfaced with a suitable amplifier or pre-amp and microcontroller.",
+            "imageUrl": "micmodule.jpg",
             "category": "diy-modules",
-            "date": "2024-03-13",
-            "featured": true
+            "date": "2025-03-13",
+            "featured": true,
+            "price": "Ksh. 100.00"
         },
         {
             "id": 4,
-            "title": "Laptop Motherboard Repair",
-            "description": "Professional motherboard-level repair for all laptop brands",
-            "imageUrl": "images/laptop-repair-1.jpg",
+            "title": "Laptop & Motherboard Repair",
+            "description": "Professional laptop and laptop motherboard-level repair for all laptop brands",
+            "imageUrl": "motherboard.jpg",
             "category": "laptop-repair",
-            "date": "2024-03-12",
+            "date": "2025-03-12",
             "featured": false
         },
         {
             "id": 5,
             "title": "Smartphone Display Replacement",
             "description": "OLED display replacement with original quality parts",
-            "imageUrl": "images/mobile-repair-1.jpg",
+            "imageUrl": "phonerepair.jpg",
             "category": "mobile-repair",
-            "date": "2024-03-11",
+            "date": "2025-03-11",
             "featured": true
         },
         {
             "id": 6,
-            "title": "SMD Component Set",
-            "description": "Complete SMD resistor and capacitor kit with 50 values",
-            "imageUrl": "images/components-1.jpg",
+            "title": "Ceramic Capacitors",
+            "description": "The capacitor values available at the moment are 10pf, 22pf, 3pf, 1nf & 100nf",
+            "imageUrl": "0.1uf ceramic.jpg",
             "category": "electronic-components",
-            "date": "2024-03-10",
-            "featured": false
+            "date": "2025-03-10",
+            "featured": false,
+            "price": "Ksh. 5.00"
         },
         {
             "id": 7,
             "title": "Custom Fabrication Service",
-            "description": "End-to-end PCB fabrication from design to assembly",
-            "imageUrl": "images/fabrication-1.jpg",
+            "description": "We offer end-to-end PCB fabrication from design to assembly. ",
+            "imageUrl": "pcbcomp.jpg",
             "category": "fabrication",
-            "date": "2024-03-09",
+            "date": "2025-03-09",
             "featured": true
         },
         {
             "id": 8,
-            "title": "Raspberry Pi Cluster",
-            "description": "High-performance computing cluster using multiple Raspberry Pi units",
-            "imageUrl": "images/gadgets-1.jpg",
+            "title": "Lenovo Thinkpad Yoga 370",
+            "description": "A versatile 13'' business convertible with a Full HD touchscreen and included stylus. This 2-in-1 laptop features 8GB of RAM, 256GB SSD,and a durable, backlit keyboard,easily adapting between laptop, tent, stand and tablet modes.",
+            "imageUrl": "lenovothinkpad.jpeg",
             "category": "electronics-gadgets",
-            "date": "2024-03-08",
-            "featured": false
+            "date": "2025-03-08",
+            "featured": false,
+            "price": "Ksh. 30,000.00"
         },
         {
             "id": 9,
-            "title": "Multi-layer PCB Design",
-            "description": "8-layer PCB design for industrial automation systems",
-            "imageUrl": "images/pcb-design-2.jpg",
-            "category": "pcb-design",
-            "date": "2024-03-07",
-            "featured": false
+            "title": "1N4007 Diode",
+            "description": "The 1N4007 is a ubiquitous general-purpose rectifier diode used to convert alternating current (AC) to direct current (DC). It is known for its high voltage tolerance of up to 1000V, a 1A average forward current rating, and low cost. The 1N4007 belongs to the 1N400x series of diodes, with the signifying a one - junction semiconductor device.",
+            "imageUrl": "1N4007 DIODE.jpg",
+            "category": "electronic-components",
+            "date": "2025-03-07",
+            "featured": false,
+            "price": "Ksh. 5.00"
         },
         {
             "id": 10,
-            "title": "Chemical Etching Process",
-            "description": "Advanced chemical etching for prototype development",
-            "imageUrl": "images/etching-2.jpg",
-            "category": "etching",
-            "date": "2024-03-06",
-            "featured": true
+            "title": "1N5122 Zener Diode",
+            "description": "The 1N5122 is a 5 - Watt silicon Zener diode used for voltage regulation and transient voltage protection.",
+            "imageUrl": "1N5122DIODE.jpg",
+            "category": "electronic-components",
+            "date": "2025-03-06",
+            "featured": false,
+            "price": "Ksh. 30.00"
         },
         {
             "id": 11,
-            "title": "ESP32 Development Board",
-            "description": "WiFi/Bluetooth enabled development board for IoT projects",
-            "imageUrl": "images/diy-module-2.jpg",
+            "title": "2 X 2 Keypad",
+            "description": "This generic 2 x 2 keypad is custom made to have 4 keys with a 2 x 2 matrix and an independent middle key which makes it easy to interface with your favorite microcontroller. It can be used for inserting 4 digit passwords in an embedded systems project with a single key that can be configured as the confirmation key.",
+            "imageUrl": "2x2keypad.jpg",
             "category": "diy-modules",
-            "date": "2024-03-05",
-            "featured": false
+            "date": "2025-03-05",
+            "featured": true,
+            "price": "Ksh. 80.00"
         },
         {
             "id": 12,
-            "title": "Laptop Battery Replacement",
-            "description": "Genuine battery replacement with calibration service",
-            "imageUrl": "images/laptop-repair-2.jpg",
-            "category": "laptop-repair",
-            "date": "2024-03-04",
-            "featured": false
+            "title": "10K Potentiometer",
+            "description": "A 10K potentiometer is a variable resistor with a maximum resistance of 10,000 ohms 10K ohm) It has three terminals and is used to manually control the amount of resistance in a circuit, which in turn controls the voltage or current. ",
+            "imageUrl": "10k pot.jpg",
+            "category": "electronic-components",
+            "date": "2025-03-04",
+            "featured": false,
+            "price": "Ksh. 25.00"
         },
         {
             "id": 13,
-            "title": "Mobile Water Damage Repair",
-            "description": "Specialized water damage recovery and component replacement",
-            "imageUrl": "images/mobile-repair-2.jpg",
-            "category": "mobile-repair",
-            "date": "2024-03-03",
-            "featured": true
+            "title": "16 X 2 LCD Display",
+            "description": "A 16x2 LCD is a popular display module for electronics projects, capable of showing two rows of 16 alphanumeric characters and easily controlled by microcontrollers like Arduino. It typically features an HD44780-compatible controller, backlight, and can be connected via a parallel or simpler I2C interface, making it an accessible option for displaying text and data.",
+            "imageUrl": "lcd.jpg",
+            "category": "electronic-components",
+            "date": "2025-03-03",
+            "featured": false,
+            "price": "Ksh. 250.00"
         },
         {
             "id": 14,
-            "title": "IC Chip Collection",
-            "description": "Assorted integrated circuits for prototyping and development",
-            "imageUrl": "images/components-2.jpg",
+            "title": "4047 Frequency Module",
+            "description": "The 4047 Frequency module is capable of providing precise square wave signals which can be used as clock signals for simple projects. The featured model produces 1Hz which can be used with circuits that require 1Hz of clock pulse. It functions with a maximum of 15V DC. It can sink/ source a maximum of 2.4mA at 15V. To drive larger loads, include a level shifting circuit to sink or source more current.",
+            "imageUrl": "4047module.jpg",
             "category": "electronic-components",
-            "date": "2024-03-02",
-            "featured": false
+            "date": "2025-03-02",
+            "featured": true,
+            "price": "Ksh. 150.00"
         },
         {
             "id": 15,
-            "title": "Prototype Assembly",
-            "description": "Small batch PCB assembly with quality testing",
-            "imageUrl": "images/fabrication-2.jpg",
-            "category": "fabrication",
-            "date": "2024-03-01",
-            "featured": false
+            "title": "18650 Li - ion Batteries",
+            "description": "Get high-quality, salvaged 18650 lithium-ion batteries with 3000mAh capacity, rigorously tested to ensure performance and reliability for your DIY projects and power needs. These cells offer a cost-effective and eco-friendly way to power a wide range of electronics, from custom power banks to high-drain devices.",
+            "imageUrl": "18650batt.jpg",
+            "category": "electronic-components",
+            "date": "2025-03-01",
+            "featured": false,
+            "price": "Ksh. 100.00"
         },
         {
             "id": 16,
-            "title": "Smart Home Hub",
-            "description": "Custom smart home controller with multiple protocol support",
-            "imageUrl": "images/gadgets-2.jpg",
-            "category": "electronics-gadgets",
-            "date": "2024-02-29",
-            "featured": true
+            "title": "DS1307 Serial Real Time Clock",
+            "description": "The DS1307 is a low-power, binary-coded decimal (BCD) real-time clock (RTC) that communicates via an I2C serial interface. It tracks seconds, minutes, hours, date, month, and year, including leap-year compensation valid up to 2100. A key feature is its integrated power-sense circuit, which automatically switches to a backup battery supply to maintain timekeeping during a main power failure. It also includes 56 bytes of battery-backed non-volatile SRAM for storing user data.",
+            "imageUrl": "ds1307 RTC.jpg",
+            "category": "electronic-components",
+            "date": "2025-02-29",
+            "featured": false,
+            "price": "Ksh. 100.00"
         },
         {
             "id": 17,
-            "title": "RF PCB Design",
-            "description": "Radio frequency circuit design for wireless applications",
-            "imageUrl": "images/pcb-design-3.jpg",
-            "category": "pcb-design",
-            "date": "2024-02-28",
-            "featured": false
+            "title": "DS1307 Serial RTC Module",
+            "description": "This custom-made RTC module offers ultra-precise, temperature-compensated timekeeping via an I2C interface, ensuring reliable date and time functions. It features an integrated backup power system for seamless operation during main power interruptions and includes battery-backed non-volatile SRAM for user data storage. Its optimized footprint and streamlined component integration make it ideal for embedded applications requiring robust, low-power synchronization, alarm functions, and logging capabilities.",
+            "imageUrl": "rtcmodule.jpg",
+            "category": "electronic-components",
+            "date": "2025-02-28",
+            "featured": false,
+            "price": "Ksh. 200.00"
         },
         {
             "id": 18,
             "title": "Laser Etching Service",
             "description": "Precision laser etching for custom labels and markings",
-            "imageUrl": "images/etching-3.jpg",
+            "imageUrl": "etching-3.jpg",
             "category": "etching",
-            "date": "2024-02-27",
+            "date": "2025-02-27",
             "featured": false
         },
         {
             "id": 19,
             "title": "Sensor Module Kit",
             "description": "Collection of 20 different sensors for Arduino/Raspberry Pi",
-            "imageUrl": "images/diy-module-3.jpg",
+            "imageUrl": "diy-module-3.jpg",
             "category": "diy-modules",
-            "date": "2024-02-26",
-            "featured": true
+            "date": "2025-02-26",
+            "featured": true,
+            "price": "2,800 Ksh"
         },
         {
             "id": 20,
             "title": "Laptop Keyboard Repair",
             "description": "Professional keyboard replacement and repair service",
-            "imageUrl": "images/laptop-repair-3.jpg",
+            "imageUrl": "laptop-repair-3.jpg",
             "category": "laptop-repair",
-            "date": "2024-02-25",
+            "date": "2025-02-25",
             "featured": false
         },
         {
             "id": 21,
             "title": "Mobile Camera Repair",
             "description": "High-quality camera module replacement service",
-            "imageUrl": "images/mobile-repair-3.jpg",
+            "imageUrl": "mobile-repair-3.jpg",
             "category": "mobile-repair",
-            "date": "2024-02-24",
+            "date": "2025-02-24",
             "featured": false
         },
         {
             "id": 22,
             "title": "Connector Assortment",
             "description": "Various types of electronic connectors and headers",
-            "imageUrl": "images/components-3.jpg",
+            "imageUrl": "components-3.jpg",
             "category": "electronic-components",
-            "date": "2024-02-23",
-            "featured": true
+            "date": "2025-02-23",
+            "featured": true,
+            "price": "650 Ksh"
         },
         {
             "id": 23,
             "title": "Mass Production",
             "description": "Large scale PCB fabrication with automated assembly",
-            "imageUrl": "images/fabrication-3.jpg",
+            "imageUrl": "fabrication-3.jpg",
             "category": "fabrication",
-            "date": "2024-02-22",
+            "date": "2025-02-22",
             "featured": false
         },
         {
@@ -212,8 +226,9 @@
             "description": "Build your own quadcopter with FPV capabilities",
             "imageUrl": "images/gadgets-3.jpg",
             "category": "electronics-gadgets",
-            "date": "2024-02-21",
-            "featured": false
+            "date": "2025-02-21",
+            "featured": false,
+            "price": "15,000 Ksh"
         },
         {
             "id": 25,
@@ -221,7 +236,7 @@
             "description": "Flexible circuit design for wearable applications",
             "imageUrl": "images/pcb-design-4.jpg",
             "category": "pcb-design",
-            "date": "2024-02-20",
+            "date": "2025-02-20",
             "featured": true
         },
         {
@@ -230,7 +245,7 @@
             "description": "Automated etching system for consistent results",
             "imageUrl": "images/etching-4.jpg",
             "category": "etching",
-            "date": "2024-02-19",
+            "date": "2025-02-19",
             "featured": false
         },
         {
@@ -239,8 +254,9 @@
             "description": "High-power motor driver for robotics projects",
             "imageUrl": "images/diy-module-4.jpg",
             "category": "diy-modules",
-            "date": "2024-02-18",
-            "featured": false
+            "date": "2025-02-18",
+            "featured": false,
+            "price": "420 Ksh"
         },
         {
             "id": 28,
@@ -248,7 +264,7 @@
             "description": "LCD/LED screen replacement with color calibration",
             "imageUrl": "images/laptop-repair-4.jpg",
             "category": "laptop-repair",
-            "date": "2024-02-17",
+            "date": "2025-02-17",
             "featured": true
         },
         {
@@ -257,7 +273,7 @@
             "description": "USB-C and micro-USB port replacement service",
             "imageUrl": "images/mobile-repair-4.jpg",
             "category": "mobile-repair",
-            "date": "2024-02-16",
+            "date": "2025-02-16",
             "featured": false
         },
         {
@@ -266,8 +282,9 @@
             "description": "Assorted LEDs in different colors and sizes",
             "imageUrl": "images/components-4.jpg",
             "category": "electronic-components",
-            "date": "2024-02-15",
-            "featured": false
+            "date": "2025-02-15",
+            "featured": false,
+            "price": "350 Ksh"
         },
         {
             "id": 31,
@@ -275,7 +292,7 @@
             "description": "Rigorous testing and inspection of fabricated boards",
             "imageUrl": "images/fabrication-4.jpg",
             "category": "fabrication",
-            "date": "2024-02-14",
+            "date": "2025-02-14",
             "featured": true
         },
         {
@@ -284,8 +301,9 @@
             "description": "DIY 3D printer kit with high precision components",
             "imageUrl": "images/gadgets-4.jpg",
             "category": "electronics-gadgets",
-            "date": "2024-02-13",
-            "featured": false
+            "date": "2025-02-13",
+            "featured": false,
+            "price": "25,000 Ksh"
         },
         {
             "id": 33,
@@ -293,7 +311,7 @@
             "description": "PCB design for high-speed digital applications",
             "imageUrl": "images/pcb-design-5.jpg",
             "category": "pcb-design",
-            "date": "2024-02-12",
+            "date": "2025-02-12",
             "featured": false
         },
         {
@@ -302,7 +320,7 @@
             "description": "Precision metal etching for enclosures and panels",
             "imageUrl": "images/etching-5.jpg",
             "category": "etching",
-            "date": "2024-02-11",
+            "date": "2025-02-11",
             "featured": true
         },
         {
@@ -311,8 +329,9 @@
             "description": "Collection of WiFi, Bluetooth, and LoRa modules",
             "imageUrl": "images/diy-module-5.jpg",
             "category": "diy-modules",
-            "date": "2024-02-10",
-            "featured": false
+            "date": "2025-02-10",
+            "featured": false,
+            "price": "1,800 Ksh"
         },
         {
             "id": 36,
@@ -320,7 +339,7 @@
             "description": "Professional data recovery from damaged laptops",
             "imageUrl": "images/laptop-repair-5.jpg",
             "category": "laptop-repair",
-            "date": "2024-02-09",
+            "date": "2025-02-09",
             "featured": false
         },
         {
@@ -329,7 +348,7 @@
             "description": "OS reinstalling and software troubleshooting",
             "imageUrl": "images/mobile-repair-5.jpg",
             "category": "mobile-repair",
-            "date": "2024-02-08",
+            "date": "2025-02-08",
             "featured": true
         },
         {
@@ -338,8 +357,9 @@
             "description": "Resistors, capacitors, and inductors assortment",
             "imageUrl": "images/components-5.jpg",
             "category": "electronic-components",
-            "date": "2024-02-07",
-            "featured": false
+            "date": "2025-02-07",
+            "featured": false,
+            "price": "550 Ksh"
         },
         {
             "id": 39,
@@ -347,7 +367,7 @@
             "description": "Rapid prototyping with quick turnaround times",
             "imageUrl": "images/fabrication-5.jpg",
             "category": "fabrication",
-            "date": "2024-02-06",
+            "date": "2025-02-06",
             "featured": false
         },
         {
@@ -356,8 +376,9 @@
             "description": "Build your own smartwatch with health monitoring",
             "imageUrl": "images/gadgets-5.jpg",
             "category": "electronics-gadgets",
-            "date": "2024-02-05",
-            "featured": true
+            "date": "2025-02-05",
+            "featured": true,
+            "price": "4,500 Ksh"
         },
         {
             "id": 41,
@@ -365,7 +386,7 @@
             "description": "High-current power supply circuit design",
             "imageUrl": "images/pcb-design-6.jpg",
             "category": "pcb-design",
-            "date": "2024-02-04",
+            "date": "2025-02-04",
             "featured": false
         },
         {
@@ -374,7 +395,7 @@
             "description": "Brand logo etching on electronic enclosures",
             "imageUrl": "images/etching-6.jpg",
             "category": "etching",
-            "date": "2024-02-03",
+            "date": "2025-02-03",
             "featured": false
         },
         {
@@ -383,8 +404,9 @@
             "description": "DIY audio amplifier with high-quality components",
             "imageUrl": "images/diy-module-6.jpg",
             "category": "diy-modules",
-            "date": "2024-02-02",
-            "featured": true
+            "date": "2025-02-02",
+            "featured": true,
+            "price": "1,200 Ksh"
         },
         {
             "id": 44,
@@ -392,7 +414,7 @@
             "description": "Fan replacement and thermal paste application",
             "imageUrl": "images/laptop-repair-6.jpg",
             "category": "laptop-repair",
-            "date": "2024-02-01",
+            "date": "2025-02-01",
             "featured": false
         },
         {
@@ -401,7 +423,7 @@
             "description": "Battery replacement and power management repair",
             "imageUrl": "images/mobile-repair-6.jpg",
             "category": "mobile-repair",
-            "date": "2024-01-31",
+            "date": "2025-01-31",
             "featured": false
         },
         {
@@ -410,8 +432,9 @@
             "description": "Transistors, diodes, and ICs for various applications",
             "imageUrl": "images/components-6.jpg",
             "category": "electronic-components",
-            "date": "2024-01-30",
-            "featured": true
+            "date": "2025-01-30",
+            "featured": true,
+            "price": "900 Ksh"
         },
         {
             "id": 47,
@@ -419,7 +442,7 @@
             "description": "Surface mount device assembly with pick-and-place",
             "imageUrl": "images/fabrication-6.jpg",
             "category": "fabrication",
-            "date": "2024-01-29",
+            "date": "2025-01-29",
             "featured": false
         },
         {
@@ -428,8 +451,9 @@
             "description": "Educational robot kit with programming interface",
             "imageUrl": "images/gadgets-6.jpg",
             "category": "electronics-gadgets",
-            "date": "2024-01-28",
-            "featured": false
+            "date": "2025-01-28",
+            "featured": false,
+            "price": "7,800 Ksh"
         },
         {
             "id": 49,
@@ -437,7 +461,7 @@
             "description": "Optimized design for Internet of Things devices",
             "imageUrl": "images/pcb-design-7.jpg",
             "category": "pcb-design",
-            "date": "2024-01-27",
+            "date": "2025-01-27",
             "featured": true
         },
         {
@@ -446,7 +470,7 @@
             "description": "Micro-scale etching for medical device applications",
             "imageUrl": "images/etching-7.jpg",
             "category": "etching",
-            "date": "2024-01-26",
+            "date": "2025-01-26",
             "featured": false
         }
     ]
