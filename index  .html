@@ -4,207 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mentora Electronics | PCB Design & Repair Services</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <title>mentora-about </title>
 </head>
 
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <i class="fas fa-microchip logo-icon"></i>
-                    <div class="logo-text">Mentora <span>Electric</span></div>
-                </div>
-                <nav class="nav">
-                    <a href="#" class="nav-link active">Home</a>
-                    <a href="#services" class="nav-link">Services</a>
-                    <a href="#products" class="nav-link">Products</a>
-                    <a href="#contact" class="nav-link">Contact</a>
-                </nav>
-            </div>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Precision Electronics <span>Solutions</span></h1>
-                <p class="hero-subtitle">Mentora Electric provides professional PCB design, etching, fabrication, and repair services with over 2 years of expertise in the electronics industry.</p>
-                <div class="cta-buttons">
-                    <a href="#products" class="btn btn-primary">
-                        <i class="fas fa-box-open"></i> View Products
-                    </a>
-                    <a href="#contact" class="btn btn-secondary">
-                        <i class="fas fa-phone"></i> Contact Us
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Our Electronics Services</h2>
-                <p class="section-subtitle">Comprehensive electronic solutions from design to repair</p>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <i class="fas fa-draw-polygon service-icon"></i>
-                    <h3 class="service-title">PCB Design</h3>
-                    <p class="service-description">Professional circuit board design services including schematic capture, layout, and signal integrity analysis for your electronic projects.</p>
-                    <a href="#" class="service-link">
-                        Learn More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-ethernet service-icon"></i>
-                    <h3 class="service-title">Etching Services</h3>
-                    <p class="service-description">High-precision PCB etching with advanced chemical processes for complex circuit patterns and fine-pitch components.</p>
-                    <a href="#" class="service-link">
-                        Learn More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-industry service-icon"></i>
-                    <h3 class="service-title">Fabrication</h3>
-                    <p class="service-description">End-to-end PCB fabrication from prototype to mass production with quality assurance and testing at every stage.</p>
-                    <a href="#" class="service-link">
-                        Learn More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-laptop service-icon"></i>
-                    <h3 class="service-title">Laptop Repair</h3>
-                    <p class="service-description">Professional laptop repair services including motherboard-level diagnostics, component replacement, and data recovery.</p>
-                    <a href="#" class="service-link">
-                        Learn More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-mobile-alt service-icon"></i>
-                    <h3 class="service-title">Mobile Repair</h3>
-                    <p class="service-description">Expert smartphone and tablet repair with genuine parts, including display, battery, and charging port replacements.</p>
-                    <a href="#" class="service-link">
-                        Learn More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Products Section -->
-    <section id="products" class="section gallery-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Our Electronics Products</h2>
-                <p class="section-subtitle">Explore our range of electronic components, gadgets, and DIY modules</p>
-            </div>
-
-            <div class="gallery-nav">
-                <button class="gallery-nav-btn active" data-filter="all">All Products</button>
-                <button class="gallery-nav-btn" data-filter="electronic-components">Electronic Components</button>
-                <button class="gallery-nav-btn" data-filter="electronics-gadgets">Electronics Gadgets</button>
-                <button class="gallery-nav-btn" data-filter="diy-modules">DIY Modules</button>
-                <button class="gallery-nav-btn" data-filter="featured">Featured</button>
-            </div>
-
-            <div class="search-bar">
-                <input type="text" id="searchInput" placeholder="Search products..." class="search-input">
-            </div>
-
-            <div class="gallery-stats">
-                <span id="imageCount">0 products</span>
-            </div>
-
-            <div class="gallery-grid" id="galleryGrid">
-                <!-- Products will be loaded here by JavaScript -->
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="container">
-            <h2 class="cta-title">Ready for Your Electronics Project?</h2>
-            <p class="cta-description">Contact us today for a free consultation and quote. Our team of electronics experts is ready to bring your ideas to life.</p>
-            <a href="#contact" class="btn btn-secondary">
-                <i class="fas fa-envelope"></i> Get In Touch
-            </a>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer" id="contact">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-column">
-                    <h3>Mentora Electronics</h3>
-                    <p>Providing professional electronics services and products with precision and excellence since 2025.</p>
-                    <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="footer-column">
-                    <h3>Services</h3>
-                    <ul class="footer-links">
-                        <li><a href="#">PCB Design</a></li>
-                        <li><a href="#">Etching Services</a></li>
-                        <li><a href="#">Fabrication</a></li>
-                        <li><a href="#">Laptop Repair</a></li>
-                        <li><a href="#">Mobile Repair</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Products</h3>
-                    <ul class="footer-links">
-                        <li><a href="#">Electronic Components</a></li>
-                        <li><a href="#">Electronics Gadgets</a></li>
-                        <li><a href="#">DIY Modules</a></li>
-                        <li><a href="#">Featured Products</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Contact Info</h3>
-                    <ul class="footer-links">
-                        <li><i class="fas fa-map-marker-alt"></i> Juja - Kiambu, near Jomo Kenyatta University of Agriculture & Technology</li>
-                        <li><i class="fas fa-phone"></i> +254 736 994 238</li>
-                        <li><i class="fas fa-envelope"></i> mentoraelectric@gmail.com</li>
-                        <li><i class="fas fa-clock"></i> Mon-Fri: 8am-6pm, Sat: 9am-2pm</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Mentora Electronics. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Product Modal -->
-    <div class="modal" id="imageModal">
-        <div class="modal-content">
-            <span class="close-btn" id="closeModal">&times;</span>
-            <img id="modalImage" src="" alt="">
-            <div class="modal-info">
-                <h2 id="modalTitle"></h2>
-                <p id="modalDescription"></p>
-                <div class="modal-meta">
-                    <span id="modalCategory"></span>
-                    <span id="modalDate"></span>
-                </div>
-            </div>
-        </div>
+    <div id="header">MENTORA - ONLINE STORES</div>
+    <div id="m1">About Us</div><br>
+    <div id="p1">Welcome to <span class="ment">Mentora Online Store </span> - Your Premier Electronics Partner</div>
+    <br>
+    <div id="p2">At <span class="ment"><strong>Mentora </strong></span> , we bridge innovation with accessibility by offering high- quality electrical and
+        Electronic components at unbeatable prices. Whether you're a student, hobbyst, or professional, our carefully curated inventory
+        ensures you get reliable components without compromising your budget.
+        <br><br> Beyond products,we provide end-to-end electronics fabrication services: <br>
+        <strong>
+            <ul>
+                <li>PCB Design & Prototyping</li>
+                <li>Professional Etching</li>
+                <li>Precision Soldering</li>
+                <li>Complete Circuit Assembly</li>
+            </ul>
+        </strong><br>
+        What truly sets us apart is our mentorship program - guiding aspiring engineers from concept to finished product through hands-on learning and expert support.
+        <br><br>
+        From components to completed circuits, Mentora powers your electronic ambitiobs with quality, affordability, and knowledge-sharing at every step.
     </div>
-
-    <script src="script.js"></script>
+    <br>
+    <div class="mis">Mission</div><br>
+    Democratizing electronics through affordable components, professional fabrication services, and expert mentorship—empowering innovation at every level.
+    <br><br>
+    <div class="mis">Electronics</div><br>
+    Our aim at <span class="ment">Mentora</span> is to provide the best quality electronics products at affordable prices to students, hobbysts, and professionals. Our range of products include electronics components such as LEDs, capacitors, resistors,
+    modules such as ultrasonic,PIR sensor to electrical products such as laptops power banks, cables and other related products.
+    <br><br>
+    <div class="mis">Core Values</div>
+    <br>
+    At <span class="ment">Mentora</span> Online Store, our core values are more than just words; they are the guiding principles that shape our actions and decisions every day.
+    <br><br>
+    <div id="m2">Happy Shopping with Mentora!</div><br><br>
+    <p id="last">We encourage you to start a creative, educational, and exploratory journey as you browse our online store. <span class="ment">Mentora</span> Online Store is here to help you with your undertakings, whether you're a seasoned engineer, a hobbyist, or an aspiring inventor. We are your innovation partners, not just an e-commerce platform. We stand out for our dedication to affordability, education, and innovation. We are thrilled to be a part of your journey because we think that there are no boundaries to what you can accomplish. We appreciate you selecting Mentora Online Store. Enjoy your shopping! Become a member of a thriving community of innovators and creators by joining us today. Together, let's construct the future, one element at a time.</p>
+    <br>
 </body>
+
+</html>
+
+</html>
 
 </html>
