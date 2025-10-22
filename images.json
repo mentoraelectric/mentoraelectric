@@ -1,0 +1,453 @@
+{
+    "gallery": [{
+            "id": 1,
+            "title": "Advanced PCB Design",
+            "description": "High-frequency PCB design with impedance control and multi-layer stackup",
+            "imageUrl": "images/pcb-design-1.jpg",
+            "category": "pcb-design",
+            "date": "2024-03-15",
+            "featured": true
+        },
+        {
+            "id": 2,
+            "title": "Micro-Etching Service",
+            "description": "Precision etching for complex circuit patterns with 0.1mm resolution",
+            "imageUrl": "images/etching-1.jpg",
+            "category": "etching",
+            "date": "2024-03-14",
+            "featured": false
+        },
+        {
+            "id": 3,
+            "title": "Arduino DIY Kit",
+            "description": "Complete Arduino starter kit with sensors, components, and tutorial",
+            "imageUrl": "images/diy-module-1.jpg",
+            "category": "diy-modules",
+            "date": "2024-03-13",
+            "featured": true
+        },
+        {
+            "id": 4,
+            "title": "Laptop Motherboard Repair",
+            "description": "Professional motherboard-level repair for all laptop brands",
+            "imageUrl": "images/laptop-repair-1.jpg",
+            "category": "laptop-repair",
+            "date": "2024-03-12",
+            "featured": false
+        },
+        {
+            "id": 5,
+            "title": "Smartphone Display Replacement",
+            "description": "OLED display replacement with original quality parts",
+            "imageUrl": "images/mobile-repair-1.jpg",
+            "category": "mobile-repair",
+            "date": "2024-03-11",
+            "featured": true
+        },
+        {
+            "id": 6,
+            "title": "SMD Component Set",
+            "description": "Complete SMD resistor and capacitor kit with 50 values",
+            "imageUrl": "images/components-1.jpg",
+            "category": "electronic-components",
+            "date": "2024-03-10",
+            "featured": false
+        },
+        {
+            "id": 7,
+            "title": "Custom Fabrication Service",
+            "description": "End-to-end PCB fabrication from design to assembly",
+            "imageUrl": "images/fabrication-1.jpg",
+            "category": "fabrication",
+            "date": "2024-03-09",
+            "featured": true
+        },
+        {
+            "id": 8,
+            "title": "Raspberry Pi Cluster",
+            "description": "High-performance computing cluster using multiple Raspberry Pi units",
+            "imageUrl": "images/gadgets-1.jpg",
+            "category": "electronics-gadgets",
+            "date": "2024-03-08",
+            "featured": false
+        },
+        {
+            "id": 9,
+            "title": "Multi-layer PCB Design",
+            "description": "8-layer PCB design for industrial automation systems",
+            "imageUrl": "images/pcb-design-2.jpg",
+            "category": "pcb-design",
+            "date": "2024-03-07",
+            "featured": false
+        },
+        {
+            "id": 10,
+            "title": "Chemical Etching Process",
+            "description": "Advanced chemical etching for prototype development",
+            "imageUrl": "images/etching-2.jpg",
+            "category": "etching",
+            "date": "2024-03-06",
+            "featured": true
+        },
+        {
+            "id": 11,
+            "title": "ESP32 Development Board",
+            "description": "WiFi/Bluetooth enabled development board for IoT projects",
+            "imageUrl": "images/diy-module-2.jpg",
+            "category": "diy-modules",
+            "date": "2024-03-05",
+            "featured": false
+        },
+        {
+            "id": 12,
+            "title": "Laptop Battery Replacement",
+            "description": "Genuine battery replacement with calibration service",
+            "imageUrl": "images/laptop-repair-2.jpg",
+            "category": "laptop-repair",
+            "date": "2024-03-04",
+            "featured": false
+        },
+        {
+            "id": 13,
+            "title": "Mobile Water Damage Repair",
+            "description": "Specialized water damage recovery and component replacement",
+            "imageUrl": "images/mobile-repair-2.jpg",
+            "category": "mobile-repair",
+            "date": "2024-03-03",
+            "featured": true
+        },
+        {
+            "id": 14,
+            "title": "IC Chip Collection",
+            "description": "Assorted integrated circuits for prototyping and development",
+            "imageUrl": "images/components-2.jpg",
+            "category": "electronic-components",
+            "date": "2024-03-02",
+            "featured": false
+        },
+        {
+            "id": 15,
+            "title": "Prototype Assembly",
+            "description": "Small batch PCB assembly with quality testing",
+            "imageUrl": "images/fabrication-2.jpg",
+            "category": "fabrication",
+            "date": "2024-03-01",
+            "featured": false
+        },
+        {
+            "id": 16,
+            "title": "Smart Home Hub",
+            "description": "Custom smart home controller with multiple protocol support",
+            "imageUrl": "images/gadgets-2.jpg",
+            "category": "electronics-gadgets",
+            "date": "2024-02-29",
+            "featured": true
+        },
+        {
+            "id": 17,
+            "title": "RF PCB Design",
+            "description": "Radio frequency circuit design for wireless applications",
+            "imageUrl": "images/pcb-design-3.jpg",
+            "category": "pcb-design",
+            "date": "2024-02-28",
+            "featured": false
+        },
+        {
+            "id": 18,
+            "title": "Laser Etching Service",
+            "description": "Precision laser etching for custom labels and markings",
+            "imageUrl": "images/etching-3.jpg",
+            "category": "etching",
+            "date": "2024-02-27",
+            "featured": false
+        },
+        {
+            "id": 19,
+            "title": "Sensor Module Kit",
+            "description": "Collection of 20 different sensors for Arduino/Raspberry Pi",
+            "imageUrl": "images/diy-module-3.jpg",
+            "category": "diy-modules",
+            "date": "2024-02-26",
+            "featured": true
+        },
+        {
+            "id": 20,
+            "title": "Laptop Keyboard Repair",
+            "description": "Professional keyboard replacement and repair service",
+            "imageUrl": "images/laptop-repair-3.jpg",
+            "category": "laptop-repair",
+            "date": "2024-02-25",
+            "featured": false
+        },
+        {
+            "id": 21,
+            "title": "Mobile Camera Repair",
+            "description": "High-quality camera module replacement service",
+            "imageUrl": "images/mobile-repair-3.jpg",
+            "category": "mobile-repair",
+            "date": "2024-02-24",
+            "featured": false
+        },
+        {
+            "id": 22,
+            "title": "Connector Assortment",
+            "description": "Various types of electronic connectors and headers",
+            "imageUrl": "images/components-3.jpg",
+            "category": "electronic-components",
+            "date": "2024-02-23",
+            "featured": true
+        },
+        {
+            "id": 23,
+            "title": "Mass Production",
+            "description": "Large scale PCB fabrication with automated assembly",
+            "imageUrl": "images/fabrication-3.jpg",
+            "category": "fabrication",
+            "date": "2024-02-22",
+            "featured": false
+        },
+        {
+            "id": 24,
+            "title": "DIY Drone Kit",
+            "description": "Build your own quadcopter with FPV capabilities",
+            "imageUrl": "images/gadgets-3.jpg",
+            "category": "electronics-gadgets",
+            "date": "2024-02-21",
+            "featured": false
+        },
+        {
+            "id": 25,
+            "title": "Flex PCB Design",
+            "description": "Flexible circuit design for wearable applications",
+            "imageUrl": "images/pcb-design-4.jpg",
+            "category": "pcb-design",
+            "date": "2024-02-20",
+            "featured": true
+        },
+        {
+            "id": 26,
+            "title": "PCB Etching Machine",
+            "description": "Automated etching system for consistent results",
+            "imageUrl": "images/etching-4.jpg",
+            "category": "etching",
+            "date": "2024-02-19",
+            "featured": false
+        },
+        {
+            "id": 27,
+            "title": "Motor Driver Module",
+            "description": "High-power motor driver for robotics projects",
+            "imageUrl": "images/diy-module-4.jpg",
+            "category": "diy-modules",
+            "date": "2024-02-18",
+            "featured": false
+        },
+        {
+            "id": 28,
+            "title": "Laptop Screen Repair",
+            "description": "LCD/LED screen replacement with color calibration",
+            "imageUrl": "images/laptop-repair-4.jpg",
+            "category": "laptop-repair",
+            "date": "2024-02-17",
+            "featured": true
+        },
+        {
+            "id": 29,
+            "title": "Mobile Charging Port",
+            "description": "USB-C and micro-USB port replacement service",
+            "imageUrl": "images/mobile-repair-4.jpg",
+            "category": "mobile-repair",
+            "date": "2024-02-16",
+            "featured": false
+        },
+        {
+            "id": 30,
+            "title": "LED Component Pack",
+            "description": "Assorted LEDs in different colors and sizes",
+            "imageUrl": "images/components-4.jpg",
+            "category": "electronic-components",
+            "date": "2024-02-15",
+            "featured": false
+        },
+        {
+            "id": 31,
+            "title": "Quality Control",
+            "description": "Rigorous testing and inspection of fabricated boards",
+            "imageUrl": "images/fabrication-4.jpg",
+            "category": "fabrication",
+            "date": "2024-02-14",
+            "featured": true
+        },
+        {
+            "id": 32,
+            "title": "3D Printer Kit",
+            "description": "DIY 3D printer kit with high precision components",
+            "imageUrl": "images/gadgets-4.jpg",
+            "category": "electronics-gadgets",
+            "date": "2024-02-13",
+            "featured": false
+        },
+        {
+            "id": 33,
+            "title": "High-Speed Design",
+            "description": "PCB design for high-speed digital applications",
+            "imageUrl": "images/pcb-design-5.jpg",
+            "category": "pcb-design",
+            "date": "2024-02-12",
+            "featured": false
+        },
+        {
+            "id": 34,
+            "title": "Metal Etching Service",
+            "description": "Precision metal etching for enclosures and panels",
+            "imageUrl": "images/etching-5.jpg",
+            "category": "etching",
+            "date": "2024-02-11",
+            "featured": true
+        },
+        {
+            "id": 35,
+            "title": "Wireless Module Set",
+            "description": "Collection of WiFi, Bluetooth, and LoRa modules",
+            "imageUrl": "images/diy-module-5.jpg",
+            "category": "diy-modules",
+            "date": "2024-02-10",
+            "featured": false
+        },
+        {
+            "id": 36,
+            "title": "Laptop Data Recovery",
+            "description": "Professional data recovery from damaged laptops",
+            "imageUrl": "images/laptop-repair-5.jpg",
+            "category": "laptop-repair",
+            "date": "2024-02-09",
+            "featured": false
+        },
+        {
+            "id": 37,
+            "title": "Mobile Software Repair",
+            "description": "OS reinstalling and software troubleshooting",
+            "imageUrl": "images/mobile-repair-5.jpg",
+            "category": "mobile-repair",
+            "date": "2024-02-08",
+            "featured": true
+        },
+        {
+            "id": 38,
+            "title": "Passive Components",
+            "description": "Resistors, capacitors, and inductors assortment",
+            "imageUrl": "images/components-5.jpg",
+            "category": "electronic-components",
+            "date": "2024-02-07",
+            "featured": false
+        },
+        {
+            "id": 39,
+            "title": "Prototype Fabrication",
+            "description": "Rapid prototyping with quick turnaround times",
+            "imageUrl": "images/fabrication-5.jpg",
+            "category": "fabrication",
+            "date": "2024-02-06",
+            "featured": false
+        },
+        {
+            "id": 40,
+            "title": "Smart Watch DIY Kit",
+            "description": "Build your own smartwatch with health monitoring",
+            "imageUrl": "images/gadgets-5.jpg",
+            "category": "electronics-gadgets",
+            "date": "2024-02-05",
+            "featured": true
+        },
+        {
+            "id": 41,
+            "title": "Power PCB Design",
+            "description": "High-current power supply circuit design",
+            "imageUrl": "images/pcb-design-6.jpg",
+            "category": "pcb-design",
+            "date": "2024-02-04",
+            "featured": false
+        },
+        {
+            "id": 42,
+            "title": "Custom Logo Etching",
+            "description": "Brand logo etching on electronic enclosures",
+            "imageUrl": "images/etching-6.jpg",
+            "category": "etching",
+            "date": "2024-02-03",
+            "featured": false
+        },
+        {
+            "id": 43,
+            "title": "Audio Amplifier Kit",
+            "description": "DIY audio amplifier with high-quality components",
+            "imageUrl": "images/diy-module-6.jpg",
+            "category": "diy-modules",
+            "date": "2024-02-02",
+            "featured": true
+        },
+        {
+            "id": 44,
+            "title": "Laptop Cooling Repair",
+            "description": "Fan replacement and thermal paste application",
+            "imageUrl": "images/laptop-repair-6.jpg",
+            "category": "laptop-repair",
+            "date": "2024-02-01",
+            "featured": false
+        },
+        {
+            "id": 45,
+            "title": "Mobile Battery Service",
+            "description": "Battery replacement and power management repair",
+            "imageUrl": "images/mobile-repair-6.jpg",
+            "category": "mobile-repair",
+            "date": "2024-01-31",
+            "featured": false
+        },
+        {
+            "id": 46,
+            "title": "Active Components",
+            "description": "Transistors, diodes, and ICs for various applications",
+            "imageUrl": "images/components-6.jpg",
+            "category": "electronic-components",
+            "date": "2024-01-30",
+            "featured": true
+        },
+        {
+            "id": 47,
+            "title": "SMD Assembly",
+            "description": "Surface mount device assembly with pick-and-place",
+            "imageUrl": "images/fabrication-6.jpg",
+            "category": "fabrication",
+            "date": "2024-01-29",
+            "featured": false
+        },
+        {
+            "id": 48,
+            "title": "Robot Kit",
+            "description": "Educational robot kit with programming interface",
+            "imageUrl": "images/gadgets-6.jpg",
+            "category": "electronics-gadgets",
+            "date": "2024-01-28",
+            "featured": false
+        },
+        {
+            "id": 49,
+            "title": "IoT PCB Design",
+            "description": "Optimized design for Internet of Things devices",
+            "imageUrl": "images/pcb-design-7.jpg",
+            "category": "pcb-design",
+            "date": "2024-01-27",
+            "featured": true
+        },
+        {
+            "id": 50,
+            "title": "Precision Etching",
+            "description": "Micro-scale etching for medical device applications",
+            "imageUrl": "images/etching-7.jpg",
+            "category": "etching",
+            "date": "2024-01-26",
+            "featured": false
+        }
+    ]
+}
