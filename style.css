@@ -327,6 +327,7 @@ body {
     transition: all 0.3s ease;
     cursor: pointer;
     border: 1px solid var(--medium-gray);
+    position: relative;
 }
 
 .gallery-item:hover {
@@ -361,9 +362,18 @@ body {
 .item-meta {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     font-size: 0.8rem;
     color: var(--light-gray);
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.meta-left {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .category-tag {
@@ -380,6 +390,36 @@ body {
     border-radius: 15px;
     font-size: 0.8rem;
     font-weight: 600;
+}
+
+/* Out of Stock Label */
+.out-of-stock-label {
+    position: absolute;
+    top: 15px;
+    left: -35px;
+    background: #ff4444;
+    color: white;
+    padding: 8px 40px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    transform: rotate(-45deg);
+    box-shadow: 0 2px 10px rgba(255, 68, 68, 0.3);
+    z-index: 10;
+}
+
+/* New Tag Label */
+.new-tag {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #4CAF50;
+    color: var(--white);
+    padding: 0.4rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    z-index: 10;
+    box-shadow: 0 2px 10px rgba(76, 175, 80, 0.3);
 }
 
 /* CTA Section */
@@ -557,6 +597,30 @@ body {
     background: rgba(255, 255, 255, 0.1);
 }
 
+/* Price Tag Styles */
+.price-tag {
+    background: var(--primary);
+    color: var(--white);
+    padding: 0.4rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+
+/* Update modal styles for price */
+.modal-price {
+    background: var(--primary);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .header-content {
@@ -595,44 +659,259 @@ body {
     .services-grid {
         grid-template-columns: 1fr;
     }
+
+    .gallery-nav {
+        gap: 0.3rem;
+    }
+
+    .gallery-nav-btn {
+        padding: 0.4rem 1rem;
+        font-size: 0.8rem;
+    }
 }
 
-/* Add to your existing CSS */
-.price-tag {
+/* Add to existing CSS */
+
+/* Detail Modal Styles */
+.detail-modal-content {
+    max-width: 900px;
+    max-height: 85vh;
+    overflow-y: auto;
+    padding: 0;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.service-detail,
+.product-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+}
+
+.detail-image {
+    background: var(--dark-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.detail-image img {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.detail-info {
+    padding: 2.5rem;
+    background: var(--dark);
+}
+
+.detail-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.detail-description {
+    color: var(--light-gray);
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+}
+
+.detail-features {
+    margin: 2rem 0;
+}
+
+.detail-features h4 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.detail-features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.detail-features li {
+    color: var(--light-gray);
+    margin-bottom: 0.8rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.detail-features li:before {
+    content: "✓";
+    color: var(--primary);
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+.detail-meta {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+}
+
+.detail-price {
     background: var(--primary);
     color: var(--white);
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.detail-category {
+    background: var(--medium-gray);
+    color: var(--light);
+    padding: 0.8rem 1.2rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.detail-badges {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.detail-badge {
     padding: 0.4rem 0.8rem;
     border-radius: 15px;
-    font-size: 0.9rem;
-    font-weight: 600;
-    margin-top: 0.5rem;
-    display: inline-block;
-}
-
-.item-meta {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
     font-size: 0.8rem;
-    color: var(--light-gray);
-    flex-wrap: wrap;
-    gap: 0.5rem;
+    font-weight: 600;
 }
 
-.meta-left {
+.detail-badge.featured {
+    background: var(--secondary);
+    color: var(--white);
+}
+
+.detail-badge.new {
+    background: #4CAF50;
+    color: var(--white);
+}
+
+.detail-badge.out-of-stock {
+    background: #ff4444;
+    color: var(--white);
+}
+
+.detail-actions {
+    margin-top: 2rem;
     display: flex;
-    gap: 0.5rem;
+    gap: 1rem;
     flex-wrap: wrap;
 }
 
-/* Update modal styles for price */
-.modal-price {
+.detail-contact-btn {
     background: var(--primary);
     color: var(--white);
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    font-size: 1.1rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
     font-weight: 600;
-    margin-top: 1rem;
-    display: inline-block;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.detail-contact-btn:hover {
+    background: var(--primary-dark);
+    transform: translateY(-2px);
+}
+
+.detail-close-btn {
+    background: transparent;
+    color: var(--light);
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 1px solid var(--medium-gray);
+    cursor: pointer;
+}
+
+.detail-close-btn:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+/* Service-specific detail styles */
+.service-detail .detail-features li:before {
+    content: "⚡";
+}
+
+/* Responsive styles for modal */
+@media (max-width: 768px) {
+
+    .service-detail,
+    .product-detail {
+        grid-template-columns: 1fr;
+    }
+
+    .detail-image {
+        padding: 1.5rem;
+        min-height: 200px;
+    }
+
+    .detail-image img {
+        max-height: 200px;
+    }
+
+    .detail-info {
+        padding: 1.5rem;
+    }
+
+    .detail-title {
+        font-size: 1.5rem;
+    }
+
+    .detail-modal-content {
+        max-width: 95%;
+        max-height: 90vh;
+    }
+}
+
+/* Enhanced modal backdrop */
+.modal {
+    backdrop-filter: blur(8px);
+}
+
+/* Animation for modal */
+.modal-content {
+    animation: modalSlideIn 0.3s ease-out;
+}
+
+@keyframes modalSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px) scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Update existing modal styles */
+.modal.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
