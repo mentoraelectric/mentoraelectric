@@ -54,7 +54,7 @@
                 <p class="section-subtitle">Comprehensive electronic solutions from design to repair</p>
             </div>
             <div class="services-grid">
-                <div class="service-card">
+                <div class="service-card" data-service="pcb-design">
                     <i class="fas fa-draw-polygon service-icon"></i>
                     <h3 class="service-title">PCB Design</h3>
                     <p class="service-description">Professional circuit board design services including schematic capture, layout, and signal integrity analysis for your electronic projects.</p>
@@ -62,7 +62,7 @@
                         Learn More <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
-                <div class="service-card">
+                <div class="service-card" data-service="etching">
                     <i class="fas fa-ethernet service-icon"></i>
                     <h3 class="service-title">Etching Services</h3>
                     <p class="service-description">High-precision PCB etching with advanced chemical processes for complex circuit patterns and fine-pitch components.</p>
@@ -70,7 +70,7 @@
                         Learn More <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
-                <div class="service-card">
+                <div class="service-card" data-service="fabrication">
                     <i class="fas fa-industry service-icon"></i>
                     <h3 class="service-title">Fabrication</h3>
                     <p class="service-description">End-to-end PCB fabrication from prototype to mass production with quality assurance and testing at every stage.</p>
@@ -78,7 +78,7 @@
                         Learn More <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
-                <div class="service-card">
+                <div class="service-card" data-service="laptop-repair">
                     <i class="fas fa-laptop service-icon"></i>
                     <h3 class="service-title">Laptop Repair</h3>
                     <p class="service-description">Professional laptop repair services including motherboard-level diagnostics, component replacement, and data recovery.</p>
@@ -86,7 +86,7 @@
                         Learn More <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
-                <div class="service-card">
+                <div class="service-card" data-service="mobile-repair">
                     <i class="fas fa-mobile-alt service-icon"></i>
                     <h3 class="service-title">Mobile Repair</h3>
                     <p class="service-description">Expert smartphone and tablet repair with genuine parts, including display, battery, and charging port replacements.</p>
@@ -111,7 +111,10 @@
                 <button class="gallery-nav-btn" data-filter="electronic-components">Electronic Components</button>
                 <button class="gallery-nav-btn" data-filter="electronics-gadgets">Electronics Gadgets</button>
                 <button class="gallery-nav-btn" data-filter="diy-modules">DIY Modules</button>
+                <button class="gallery-nav-btn" data-filter="oraimo-products">Oraimo Products</button>
+                <button class="gallery-nav-btn" data-filter="laptops">Laptops</button>
                 <button class="gallery-nav-btn" data-filter="featured">Featured</button>
+                <button class="gallery-nav-btn" data-filter="out-of-stock">Out of Stock</button>
             </div>
 
             <div class="search-bar">
@@ -156,11 +159,11 @@
                 <div class="footer-column">
                     <h3>Services</h3>
                     <ul class="footer-links">
-                        <li><a href="#">PCB Design</a></li>
-                        <li><a href="#">Etching Services</a></li>
-                        <li><a href="#">Fabrication</a></li>
-                        <li><a href="#">Laptop Repair</a></li>
-                        <li><a href="#">Mobile Repair</a></li>
+                        <li><a href="#" class="service-modal-link" data-service="pcb-design">PCB Design</a></li>
+                        <li><a href="#" class="service-modal-link" data-service="etching">Etching Services</a></li>
+                        <li><a href="#" class="service-modal-link" data-service="fabrication">Fabrication</a></li>
+                        <li><a href="#" class="service-modal-link" data-service="laptop-repair">Laptop Repair</a></li>
+                        <li><a href="#" class="service-modal-link" data-service="mobile-repair">Mobile Repair</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
@@ -169,6 +172,8 @@
                         <li><a href="#">Electronic Components</a></li>
                         <li><a href="#">Electronics Gadgets</a></li>
                         <li><a href="#">DIY Modules</a></li>
+                        <li><a href="#">Oraimo Products</a></li>
+                        <li><a href="#">Laptops</a></li>
                         <li><a href="#">Featured Products</a></li>
                     </ul>
                 </div>
@@ -188,18 +193,12 @@
         </div>
     </footer>
 
-    <!-- Product Modal -->
-    <div class="modal" id="imageModal">
-        <div class="modal-content">
+    <!-- Detail Modal -->
+    <div class="modal" id="detailModal">
+        <div class="modal-content detail-modal-content">
             <span class="close-btn" id="closeModal">&times;</span>
-            <img id="modalImage" src="" alt="">
-            <div class="modal-info">
-                <h2 id="modalTitle"></h2>
-                <p id="modalDescription"></p>
-                <div class="modal-meta">
-                    <span id="modalCategory"></span>
-                    <span id="modalDate"></span>
-                </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Content will be loaded here by JavaScript -->
             </div>
         </div>
     </div>
