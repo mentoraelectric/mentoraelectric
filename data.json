@@ -1,21 +1,49 @@
 {
     "gallery": [{
             "id": 1,
-            "title": "Advanced PCB Design",
-            "description": "High-frequency PCB design with impedance control and multi-layer stackup",
-            "imageUrl": "pcbdesign.jpeg",
-            "category": "pcb-design",
-            "date": "2025-03-15",
-            "featured": true
+            "title": "Solderless Breadboard",
+            "description": "This Solderless Breadboard can be used to test electronic circuits before permanently soldering components in place. It ensures any errors present in the circuit are detected early before making it permanent.",
+            "imageUrl": "breadboard.jpg",
+            "category": "electronic-components",
+            "date": "2025-10-15",
+            "featured": false,
+            "price": "Ksh. 250",
+            "outOfStock": false,
+            "features": [
+                "Model: MB102",
+                "Weight: 100.00g",
+                "Dimensions: 165.00mm x 55.00mm x 10.00mm",
+                "Wire size: Suitable fo 29 - 20 AWG wires",
+                "Matrix: 126 separate 5 points terminals, plus 4 horizontal bus lines (power Lines) of 50 test points each"
+            ]
         },
         {
             "id": 2,
-            "title": "Professional Etching Services ",
-            "description": "Precision etching for complex circuit patterns with 0.1mm resolution",
-            "imageUrl": "etching.jpg",
-            "category": "etching",
-            "date": "2025-03-14",
-            "featured": false
+            "title": "Male to Male Jumpers ",
+            "description": "Jumper wires are electrical conductors with connectors on each end, used to connect components in a circuit, especially on a breadboard, without soldering. They are essential for electronics prototyping and testing, allowing users to quickly assemble and modify circuits.",
+            "imageUrl": "male to male.jpg",
+            "category": "electronic-components",
+            "date": "2025-10-15",
+            "featured": false,
+            "price": "Ksh. 200.00",
+            "outOfStock": false,
+            "features": [
+                "A 20cm, 40 pieces wire cable connector from dupont. Male to Male terminated"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Male to Female Jumpers ",
+            "description": "Jumper wires are electrical conductors with connectors on each end, used to connect components in a circuit, especially on a breadboard, without soldering. They are essential for electronics prototyping and testing, allowing users to quickly assemble and modify circuits.",
+            "imageUrl": "jumping-wire-female.jpg",
+            "category": "electronic-components",
+            "date": "2025-10-15",
+            "featured": false,
+            "price": "Ksh. 200.00",
+            "outOfStock": false,
+            "features": [
+                "A 20cm, 40 pieces wire cable connector from dupont. Male to Female terminated"
+            ]
         },
         {
             "id": 3,
@@ -25,453 +53,156 @@
             "category": "diy-modules",
             "date": "2025-03-13",
             "featured": true,
-            "price": "Ksh. 100.00"
+            "price": "Ksh. 100.00",
+            "new": true,
+            "outOfStock": false,
+            "features": [
+                "Works with up to 12V DC",
+                "Low distortion audio output",
+                "Easy interface with amplifiers",
+                "Microcontroller compatible",
+                "Compact design",
+                "High sensitivity"
+            ]
         },
         {
             "id": 4,
-            "title": "Laptop & Motherboard Repair",
-            "description": "Professional laptop and laptop motherboard-level repair for all laptop brands",
-            "imageUrl": "motherboard.jpg",
-            "category": "laptop-repair",
-            "date": "2025-03-12",
-            "featured": false
+            "title": "16 x 2 LCD",
+            "description": "This is a 16 x 2 Liquid Crystal Display. Think of an LCD (Liquid Crystal Display) as a super-efficient window that you can control. It uses a backlight, which is the light source, and a layer of liquid crystals to either block or let that light through for every single pixel. By adjusting the voltage, the crystals change position, which creates the image you see on the screen.",
+            "imageUrl": "lcd.jpg",
+            "category": "electronic-components",
+            "date": "2025-0-15",
+            "featured": false,
+            "price": "Ksh. 250.00 ",
+            "new": false,
+            "outOfStock": false,
+            "features": ["Two-Line display: this is perfect for compact designs, this module displays 2 lines x 16 characters, offering an elegant way to show text, data or menu options.",
+                "Yellow Backlight: This vibrant backlight ensures excellent visibility in various lighting conditions.",
+                "Wide Compatibility: Fully compatible with Arduino and other microcontroller platforms, making it ideal for hobbysts, students and professionals.",
+                "SimpleInterface: Equiped with an easy-to-use 16 pin interface for straightforward connections and integration."
+            ]
         },
         {
             "id": 5,
-            "title": "Smartphone Display Replacement",
-            "description": "OLED display replacement with original quality parts",
-            "imageUrl": "phonerepair.jpg",
-            "category": "mobile-repair",
-            "date": "2025-03-11",
-            "featured": true
+            "title": "5mm Red Leds",
+            "description": "These are Red Light Emitting Diode (LEDs) with a diameter of 5mm across the dome.This product has a minimum quantity of 5 pieces.",
+            "imageUrl": "LED 5mmred.jpg",
+            "category": "electronic-components",
+            "date": "2025-10-15",
+            "featured": false,
+            "price": "Ksh. 5.00",
+            "new": false,
+            "outOfStock": false,
+            "features": [
+                "5mm Red Round type lED",
+                "Emitting Color:Red",
+                "Wavelength: 460-470nm",
+                "Voltage Rating: 2.9-3.3V",
+                "Light Intensity: 800-1000mcd",
+                "Light Angle: 60 degrees",
+                "No. of pins: 2"
+            ]
         },
         {
             "id": 6,
-            "title": "Ceramic Capacitors",
-            "description": "The capacitor values available at the moment are 10pf, 22pf, 3pf, 1nf & 100nf",
-            "imageUrl": "0.1uf ceramic.jpg",
+            "title": "5mm Green Leds",
+            "description": "These are Green Light Emitting Diode (LEDs) with a diameter of 5mm across the dome.This product has a minimum quantity of 5 pieces.",
+            "imageUrl": "greenled.jpg",
             "category": "electronic-components",
-            "date": "2025-03-10",
+            "date": "2025-10-15",
             "featured": false,
-            "price": "Ksh. 5.00"
+            "price": "Ksh. 5.00",
+            "new": false,
+            "outOfStock": false,
+            "features": [
+                "5mm Green Round type lED",
+                "Emitting Color: Green",
+                "Wavelength: 460-470nm",
+                "Voltage Rating: 2.9-3.3V",
+                "Light Intensity: 800-1000mcd",
+                "Light Angle: 60 degrees",
+                "No. of pins: 2"
+            ]
         },
         {
             "id": 7,
-            "title": "Custom Fabrication Service",
-            "description": "We offer end-to-end PCB fabrication from design to assembly. ",
-            "imageUrl": "pcbcomp.jpg",
-            "category": "fabrication",
-            "date": "2025-03-09",
-            "featured": true
+            "title": "5mm Blue Leds",
+            "description": "These are Blue Light Emitting Diode (LEDs) with a diameter of 5mm across the dome.This product has a minimum quantity of 5 pieces.",
+            "imageUrl": "blueled.jpg",
+            "category": "electronic-components",
+            "date": "2025-10-15",
+            "featured": false,
+            "price": "Ksh. 5.00",
+            "new": false,
+            "outOfStock": false,
+            "features": [
+                "5mm Blue Round type lED",
+                "Emitting Color: Blue",
+                "Wavelength: 460-470nm",
+                "Voltage Rating: 2.9-3.3V",
+                "Light Intensity: 800-1000mcd",
+                "Light Angle: 60 degrees",
+                "No. of pins: 2"
+            ]
         },
         {
             "id": 8,
-            "title": "Lenovo Thinkpad Yoga 370",
-            "description": "A versatile 13'' business convertible with a Full HD touchscreen and included stylus. This 2-in-1 laptop features 8GB of RAM, 256GB SSD,and a durable, backlit keyboard,easily adapting between laptop, tent, stand and tablet modes.",
-            "imageUrl": "lenovothinkpad.jpeg",
-            "category": "electronics-gadgets",
-            "date": "2025-03-08",
-            "featured": false,
-            "price": "Ksh. 30,000.00"
-        },
-        {
-            "id": 9,
-            "title": "1N4007 Diode",
-            "description": "The 1N4007 is a ubiquitous general-purpose rectifier diode used to convert alternating current (AC) to direct current (DC). It is known for its high voltage tolerance of up to 1000V, a 1A average forward current rating, and low cost. The 1N4007 belongs to the 1N400x series of diodes, with the signifying a one - junction semiconductor device.",
-            "imageUrl": "1N4007 DIODE.jpg",
+            "title": "5mm Yellow Leds",
+            "description": "These are Yellow Light Emitting Diode (LEDs) with a diameter of 5mm across the dome.This product has a minimum quantity of 5 pieces.",
+            "imageUrl": "yellowled.jpg",
             "category": "electronic-components",
-            "date": "2025-03-07",
+            "date": "2025-10-15",
             "featured": false,
-            "price": "Ksh. 5.00"
-        },
-        {
-            "id": 10,
-            "title": "1N5122 Zener Diode",
-            "description": "The 1N5122 is a 5 - Watt silicon Zener diode used for voltage regulation and transient voltage protection.",
-            "imageUrl": "1N5122DIODE.jpg",
-            "category": "electronic-components",
-            "date": "2025-03-06",
-            "featured": false,
-            "price": "Ksh. 30.00"
-        },
-        {
-            "id": 11,
-            "title": "2 X 2 Keypad",
-            "description": "This generic 2 x 2 keypad is custom made to have 4 keys with a 2 x 2 matrix and an independent middle key which makes it easy to interface with your favorite microcontroller. It can be used for inserting 4 digit passwords in an embedded systems project with a single key that can be configured as the confirmation key.",
-            "imageUrl": "2x2keypad.jpg",
-            "category": "diy-modules",
-            "date": "2025-03-05",
-            "featured": true,
-            "price": "Ksh. 80.00"
-        },
-        {
-            "id": 12,
-            "title": "10K Potentiometer",
-            "description": "A 10K potentiometer is a variable resistor with a maximum resistance of 10,000 ohms 10K ohm) It has three terminals and is used to manually control the amount of resistance in a circuit, which in turn controls the voltage or current. ",
-            "imageUrl": "10k pot.jpg",
-            "category": "electronic-components",
-            "date": "2025-03-04",
-            "featured": false,
-            "price": "Ksh. 25.00"
-        },
-        {
-            "id": 13,
-            "title": "16 X 2 LCD Display",
-            "description": "A 16x2 LCD is a popular display module for electronics projects, capable of showing two rows of 16 alphanumeric characters and easily controlled by microcontrollers like Arduino. It typically features an HD44780-compatible controller, backlight, and can be connected via a parallel or simpler I2C interface, making it an accessible option for displaying text and data.",
-            "imageUrl": "lcd.jpg",
-            "category": "electronic-components",
-            "date": "2025-03-03",
-            "featured": false,
-            "price": "Ksh. 250.00"
-        },
-        {
-            "id": 14,
-            "title": "4047 Frequency Module",
-            "description": "The 4047 Frequency module is capable of providing precise square wave signals which can be used as clock signals for simple projects. The featured model produces 1Hz which can be used with circuits that require 1Hz of clock pulse. It functions with a maximum of 15V DC. It can sink/ source a maximum of 2.4mA at 15V. To drive larger loads, include a level shifting circuit to sink or source more current.",
-            "imageUrl": "4047module.jpg",
-            "category": "electronic-components",
-            "date": "2025-03-02",
-            "featured": true,
-            "price": "Ksh. 150.00"
-        },
-        {
-            "id": 15,
-            "title": "18650 Li - ion Batteries",
-            "description": "Get high-quality, salvaged 18650 lithium-ion batteries with 3000mAh capacity, rigorously tested to ensure performance and reliability for your DIY projects and power needs. These cells offer a cost-effective and eco-friendly way to power a wide range of electronics, from custom power banks to high-drain devices.",
-            "imageUrl": "18650batt.jpg",
-            "category": "electronic-components",
-            "date": "2025-03-01",
-            "featured": false,
-            "price": "Ksh. 100.00"
-        },
-        {
-            "id": 16,
-            "title": "DS1307 Serial Real Time Clock",
-            "description": "The DS1307 is a low-power, binary-coded decimal (BCD) real-time clock (RTC) that communicates via an I2C serial interface. It tracks seconds, minutes, hours, date, month, and year, including leap-year compensation valid up to 2100. A key feature is its integrated power-sense circuit, which automatically switches to a backup battery supply to maintain timekeeping during a main power failure. It also includes 56 bytes of battery-backed non-volatile SRAM for storing user data.",
-            "imageUrl": "ds1307 RTC.jpg",
-            "category": "electronic-components",
-            "date": "2025-02-29",
-            "featured": false,
-            "price": "Ksh. 100.00"
-        },
-        {
-            "id": 17,
-            "title": "DS1307 Serial RTC Module",
-            "description": "This custom-made RTC module offers ultra-precise, temperature-compensated timekeeping via an I2C interface, ensuring reliable date and time functions. It features an integrated backup power system for seamless operation during main power interruptions and includes battery-backed non-volatile SRAM for user data storage. Its optimized footprint and streamlined component integration make it ideal for embedded applications requiring robust, low-power synchronization, alarm functions, and logging capabilities.",
-            "imageUrl": "rtcmodule.jpg",
-            "category": "electronic-components",
-            "date": "2025-02-28",
-            "featured": false,
-            "price": "Ksh. 200.00"
-        },
-        {
-            "id": 18,
-            "title": "Laser Etching Service",
-            "description": "Precision laser etching for custom labels and markings",
-            "imageUrl": "etching-3.jpg",
-            "category": "etching",
-            "date": "2025-02-27",
-            "featured": false
-        },
-        {
-            "id": 19,
-            "title": "Sensor Module Kit",
-            "description": "Collection of 20 different sensors for Arduino/Raspberry Pi",
-            "imageUrl": "diy-module-3.jpg",
-            "category": "diy-modules",
-            "date": "2025-02-26",
-            "featured": true,
-            "price": "2,800 Ksh"
+            "price": "Ksh. 5.00",
+            "new": false,
+            "outOfStock": false,
+            "features": [
+                "5mm Yellow Round type lED",
+                "Emitting Color: Yellow",
+                "Wavelength: 460-470nm",
+                "Voltage Rating: 2.9-3.3V",
+                "Light Intensity: 800-1000mcd",
+                "Light Angle: 60 degrees",
+                "No. of pins: 2"
+            ]
         },
         {
             "id": 20,
-            "title": "Laptop Keyboard Repair",
-            "description": "Professional keyboard replacement and repair service",
-            "imageUrl": "laptop-repair-3.jpg",
-            "category": "laptop-repair",
-            "date": "2025-02-25",
-            "featured": false
+            "title": "Lenovo Thinkpad Yoga 370",
+            "description": "A versatile 13'' business convertible with a Full HD touchscreen and included stylus. This 2-in-1 laptop features 8GB of RAM, 256GB SSD,and a durable, backlit keyboard,easily adapting between laptop, tent, stand and tablet modes.",
+            "imageUrl": "lenovothinkpad.jpeg",
+            "category": "laptops",
+            "date": "2025-03-08",
+            "featured": false,
+            "price": "Ksh. 30,000.00",
+            "new": true,
+            "features": [
+                "13'' Full HD touchscreen",
+                "8GB RAM, 256GB SSD",
+                "Convertible design",
+                "Included stylus",
+                "Backlit keyboard",
+                "Intel Core i5 processor"
+            ]
         },
         {
             "id": 21,
-            "title": "Mobile Camera Repair",
-            "description": "High-quality camera module replacement service",
-            "imageUrl": "mobile-repair-3.jpg",
-            "category": "mobile-repair",
-            "date": "2025-02-24",
-            "featured": false
-        },
-        {
-            "id": 22,
-            "title": "Connector Assortment",
-            "description": "Various types of electronic connectors and headers",
-            "imageUrl": "components-3.jpg",
-            "category": "electronic-components",
-            "date": "2025-02-23",
+            "title": "Oraimo Wireless Earbuds",
+            "description": "High-quality Oraimo true wireless earbuds with noise cancellation and 24-hour battery life.",
+            "imageUrl": "images/oraimo-earbuds.jpg",
+            "category": "oraimo-products",
+            "date": "2025-02-28",
             "featured": true,
-            "price": "650 Ksh"
-        },
-        {
-            "id": 23,
-            "title": "Mass Production",
-            "description": "Large scale PCB fabrication with automated assembly",
-            "imageUrl": "fabrication-3.jpg",
-            "category": "fabrication",
-            "date": "2025-02-22",
-            "featured": false
-        },
-        {
-            "id": 24,
-            "title": "DIY Drone Kit",
-            "description": "Build your own quadcopter with FPV capabilities",
-            "imageUrl": "images/gadgets-3.jpg",
-            "category": "electronics-gadgets",
-            "date": "2025-02-21",
-            "featured": false,
-            "price": "15,000 Ksh"
-        },
-        {
-            "id": 25,
-            "title": "Flex PCB Design",
-            "description": "Flexible circuit design for wearable applications",
-            "imageUrl": "images/pcb-design-4.jpg",
-            "category": "pcb-design",
-            "date": "2025-02-20",
-            "featured": true
-        },
-        {
-            "id": 26,
-            "title": "PCB Etching Machine",
-            "description": "Automated etching system for consistent results",
-            "imageUrl": "images/etching-4.jpg",
-            "category": "etching",
-            "date": "2025-02-19",
-            "featured": false
-        },
-        {
-            "id": 27,
-            "title": "Motor Driver Module",
-            "description": "High-power motor driver for robotics projects",
-            "imageUrl": "images/diy-module-4.jpg",
-            "category": "diy-modules",
-            "date": "2025-02-18",
-            "featured": false,
-            "price": "420 Ksh"
-        },
-        {
-            "id": 28,
-            "title": "Laptop Screen Repair",
-            "description": "LCD/LED screen replacement with color calibration",
-            "imageUrl": "images/laptop-repair-4.jpg",
-            "category": "laptop-repair",
-            "date": "2025-02-17",
-            "featured": true
-        },
-        {
-            "id": 29,
-            "title": "Mobile Charging Port",
-            "description": "USB-C and micro-USB port replacement service",
-            "imageUrl": "images/mobile-repair-4.jpg",
-            "category": "mobile-repair",
-            "date": "2025-02-16",
-            "featured": false
-        },
-        {
-            "id": 30,
-            "title": "LED Component Pack",
-            "description": "Assorted LEDs in different colors and sizes",
-            "imageUrl": "images/components-4.jpg",
-            "category": "electronic-components",
-            "date": "2025-02-15",
-            "featured": false,
-            "price": "350 Ksh"
-        },
-        {
-            "id": 31,
-            "title": "Quality Control",
-            "description": "Rigorous testing and inspection of fabricated boards",
-            "imageUrl": "images/fabrication-4.jpg",
-            "category": "fabrication",
-            "date": "2025-02-14",
-            "featured": true
-        },
-        {
-            "id": 32,
-            "title": "3D Printer Kit",
-            "description": "DIY 3D printer kit with high precision components",
-            "imageUrl": "images/gadgets-4.jpg",
-            "category": "electronics-gadgets",
-            "date": "2025-02-13",
-            "featured": false,
-            "price": "25,000 Ksh"
-        },
-        {
-            "id": 33,
-            "title": "High-Speed Design",
-            "description": "PCB design for high-speed digital applications",
-            "imageUrl": "images/pcb-design-5.jpg",
-            "category": "pcb-design",
-            "date": "2025-02-12",
-            "featured": false
-        },
-        {
-            "id": 34,
-            "title": "Metal Etching Service",
-            "description": "Precision metal etching for enclosures and panels",
-            "imageUrl": "images/etching-5.jpg",
-            "category": "etching",
-            "date": "2025-02-11",
-            "featured": true
-        },
-        {
-            "id": 35,
-            "title": "Wireless Module Set",
-            "description": "Collection of WiFi, Bluetooth, and LoRa modules",
-            "imageUrl": "images/diy-module-5.jpg",
-            "category": "diy-modules",
-            "date": "2025-02-10",
-            "featured": false,
-            "price": "1,800 Ksh"
-        },
-        {
-            "id": 36,
-            "title": "Laptop Data Recovery",
-            "description": "Professional data recovery from damaged laptops",
-            "imageUrl": "images/laptop-repair-5.jpg",
-            "category": "laptop-repair",
-            "date": "2025-02-09",
-            "featured": false
-        },
-        {
-            "id": 37,
-            "title": "Mobile Software Repair",
-            "description": "OS reinstalling and software troubleshooting",
-            "imageUrl": "images/mobile-repair-5.jpg",
-            "category": "mobile-repair",
-            "date": "2025-02-08",
-            "featured": true
-        },
-        {
-            "id": 38,
-            "title": "Passive Components",
-            "description": "Resistors, capacitors, and inductors assortment",
-            "imageUrl": "images/components-5.jpg",
-            "category": "electronic-components",
-            "date": "2025-02-07",
-            "featured": false,
-            "price": "550 Ksh"
-        },
-        {
-            "id": 39,
-            "title": "Prototype Fabrication",
-            "description": "Rapid prototyping with quick turnaround times",
-            "imageUrl": "images/fabrication-5.jpg",
-            "category": "fabrication",
-            "date": "2025-02-06",
-            "featured": false
-        },
-        {
-            "id": 40,
-            "title": "Smart Watch DIY Kit",
-            "description": "Build your own smartwatch with health monitoring",
-            "imageUrl": "images/gadgets-5.jpg",
-            "category": "electronics-gadgets",
-            "date": "2025-02-05",
-            "featured": true,
-            "price": "4,500 Ksh"
-        },
-        {
-            "id": 41,
-            "title": "Power PCB Design",
-            "description": "High-current power supply circuit design",
-            "imageUrl": "images/pcb-design-6.jpg",
-            "category": "pcb-design",
-            "date": "2025-02-04",
-            "featured": false
-        },
-        {
-            "id": 42,
-            "title": "Custom Logo Etching",
-            "description": "Brand logo etching on electronic enclosures",
-            "imageUrl": "images/etching-6.jpg",
-            "category": "etching",
-            "date": "2025-02-03",
-            "featured": false
-        },
-        {
-            "id": 43,
-            "title": "Audio Amplifier Kit",
-            "description": "DIY audio amplifier with high-quality components",
-            "imageUrl": "images/diy-module-6.jpg",
-            "category": "diy-modules",
-            "date": "2025-02-02",
-            "featured": true,
-            "price": "1,200 Ksh"
-        },
-        {
-            "id": 44,
-            "title": "Laptop Cooling Repair",
-            "description": "Fan replacement and thermal paste application",
-            "imageUrl": "images/laptop-repair-6.jpg",
-            "category": "laptop-repair",
-            "date": "2025-02-01",
-            "featured": false
-        },
-        {
-            "id": 45,
-            "title": "Mobile Battery Service",
-            "description": "Battery replacement and power management repair",
-            "imageUrl": "images/mobile-repair-6.jpg",
-            "category": "mobile-repair",
-            "date": "2025-01-31",
-            "featured": false
-        },
-        {
-            "id": 46,
-            "title": "Active Components",
-            "description": "Transistors, diodes, and ICs for various applications",
-            "imageUrl": "images/components-6.jpg",
-            "category": "electronic-components",
-            "date": "2025-01-30",
-            "featured": true,
-            "price": "900 Ksh"
-        },
-        {
-            "id": 47,
-            "title": "SMD Assembly",
-            "description": "Surface mount device assembly with pick-and-place",
-            "imageUrl": "images/fabrication-6.jpg",
-            "category": "fabrication",
-            "date": "2025-01-29",
-            "featured": false
-        },
-        {
-            "id": 48,
-            "title": "Robot Kit",
-            "description": "Educational robot kit with programming interface",
-            "imageUrl": "images/gadgets-6.jpg",
-            "category": "electronics-gadgets",
-            "date": "2025-01-28",
-            "featured": false,
-            "price": "7,800 Ksh"
-        },
-        {
-            "id": 49,
-            "title": "IoT PCB Design",
-            "description": "Optimized design for Internet of Things devices",
-            "imageUrl": "images/pcb-design-7.jpg",
-            "category": "pcb-design",
-            "date": "2025-01-27",
-            "featured": true
-        },
-        {
-            "id": 50,
-            "title": "Precision Etching",
-            "description": "Micro-scale etching for medical device applications",
-            "imageUrl": "images/etching-7.jpg",
-            "category": "etching",
-            "date": "2025-01-26",
-            "featured": false
+            "price": "Ksh. 2,500.00",
+            "new": true,
+            "features": [
+                "True wireless design",
+                "Active noise cancellation",
+                "24-hour battery life",
+                "IPX7 water resistance",
+                "Touch controls",
+                "Quick charging"
+            ]
         }
     ]
 }
