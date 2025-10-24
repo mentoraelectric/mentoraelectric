@@ -46,7 +46,7 @@
             ]
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "12V Electret Microphone Module",
             "description": "This Electret Microphone Module works with upto 12V DC, has very little distortion and can be interfaced with a suitable amplifier or pre-amp and microcontroller.",
             "imageUrl": "micmodule.jpg",
@@ -66,7 +66,7 @@
             ]
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "16 x 2 LCD",
             "description": "This is a 16 x 2 Liquid Crystal Display. Think of an LCD (Liquid Crystal Display) as a super-efficient window that you can control. It uses a backlight, which is the light source, and a layer of liquid crystals to either block or let that light through for every single pixel. By adjusting the voltage, the crystals change position, which creates the image you see on the screen.",
             "imageUrl": "lcd.jpg",
@@ -83,7 +83,7 @@
             ]
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "5mm Red Leds",
             "description": "These are Red Light Emitting Diode (LEDs) with a diameter of 5mm across the dome.This product has a minimum quantity of 5 pieces.",
             "imageUrl": "LED 5mmred.jpg",
@@ -104,7 +104,7 @@
             ]
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "5mm Green Leds",
             "description": "These are Green Light Emitting Diode (LEDs) with a diameter of 5mm across the dome.This product has a minimum quantity of 5 pieces.",
             "imageUrl": "greenled.jpg",
@@ -125,7 +125,7 @@
             ]
         },
         {
-            "id": 7,
+            "id": 8,
             "title": "5mm Blue Leds",
             "description": "These are Blue Light Emitting Diode (LEDs) with a diameter of 5mm across the dome.This product has a minimum quantity of 5 pieces.",
             "imageUrl": "blueled.jpg",
@@ -146,7 +146,7 @@
             ]
         },
         {
-            "id": 8,
+            "id": 9,
             "title": "5mm Yellow Leds",
             "description": "These are Yellow Light Emitting Diode (LEDs) with a diameter of 5mm across the dome.This product has a minimum quantity of 5 pieces.",
             "imageUrl": "yellowled.jpg",
