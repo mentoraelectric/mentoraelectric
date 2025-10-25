@@ -9,7 +9,7 @@ class ProductGallery {
             'pcb-design': {
                 title: 'PCB Design Service',
                 description: 'Professional circuit board design services including schematic capture, layout, and signal integrity analysis for your electronic projects. We specialize in creating optimized PCB layouts that meet your specific requirements.',
-                imageUrl: 'images/pcbdesign.jpeg',
+                imageUrl: 'pcbdesign.jpeg',
                 features: [
                     'Schematic capture and circuit design',
                     'Multi-layer PCB layout',
@@ -25,7 +25,7 @@ class ProductGallery {
             'etching': {
                 title: 'PCB Etching Services',
                 description: 'High-precision PCB etching with advanced chemical processes for complex circuit patterns and fine-pitch components. We use state-of-the-art equipment to ensure perfect results every time.',
-                imageUrl: 'images/etching.jpg',
+                imageUrl: 'etching.jpg',
                 features: [
                     'High-precision chemical etching',
                     'Fine-pitch component support',
@@ -41,7 +41,7 @@ class ProductGallery {
             'fabrication': {
                 title: 'PCB Fabrication',
                 description: 'End-to-end PCB fabrication from prototype to mass production with quality assurance and testing at every stage. We handle everything from material selection to final assembly.',
-                imageUrl: 'images/pcbcomp.jpg',
+                imageUrl: 'pcbcomp.jpg',
                 features: [
                     'Prototype to mass production',
                     'Surface mount technology (SMT)',
@@ -57,7 +57,7 @@ class ProductGallery {
             'laptop-repair': {
                 title: 'Laptop Repair Services',
                 description: 'Professional laptop repair services including motherboard-level diagnostics, component replacement, and data recovery. We repair all major brands and models.',
-                imageUrl: 'images/motherboard.jpg',
+                imageUrl: 'motherboard.jpg',
                 features: [
                     'Motherboard-level diagnostics',
                     'Screen replacement',
@@ -73,7 +73,7 @@ class ProductGallery {
             'mobile-repair': {
                 title: 'Mobile Repair Services',
                 description: 'Expert smartphone and tablet repair with genuine parts, including display, battery, and charging port replacements. Fast and reliable service for all mobile devices.',
-                imageUrl: 'images/phonerepair.jpg',
+                imageUrl: 'phonerepair.jpg',
                 features: [
                     'Screen replacement',
                     'Battery replacement',
