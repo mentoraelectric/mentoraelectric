@@ -819,6 +819,31 @@
             ]
         },
         {
+            "id": 39,
+            "title": "Ceramic Disc Capacitors",
+            "description": "High-quality ceramic disc capacitors available in various capacitance values for diverse electronic applications. Perfect for high-frequency circuits, decoupling, filtering, and timing applications with excellent stability and reliability.",
+            "imageUrl": "0.1uf ceramic.jpg",
+            "category": "electronic-components",
+            "date": "2025-03-13",
+            "featured": false,
+            "price": "Ksh. 7.00",
+            "new": false,
+            "outOfStock": false,
+            "features": [
+                "Available Values: 22pF, 220pF, 680pF, 100nF (0.1μF), 1μF",
+                "Type: Ceramic Disc (MLCC)",
+                "Voltage Ratings: 50V DC",
+                "Tolerance: ±20% (Standard), ±10% available",
+                "Temperature Characteristics: NPO/C0G & X7R",
+                "Non-polarized design",
+                "Low ESR and high frequency performance",
+                "Operating Temperature: -55°C to +125°C",
+                "Through-hole mounting",
+                "RoHS compliant",
+                "Excellent stability and reliability"
+            ]
+        },
+        {
             "id": 60,
             "title": "Lenovo Thinkpad Yoga 370",
             "description": "A versatile 13'' business convertible with a Full HD touchscreen and included stylus. This 2-in-1 laptop features 8GB of RAM, 256GB SSD,and a durable, backlit keyboard,easily adapting between laptop, tent, stand and tablet modes.",
